@@ -19,4 +19,4 @@ COPY tools/n64splat/requirements.txt ./tools/n64splat/requirements.txt
 RUN python3 -m pip install -r requirements.txt
 
 WORKDIR /banjo
-ENTRYPOINT ["/bin/bash", "-c"]
+ENTRYPOINT ["/bin/bash"]
